@@ -27,3 +27,11 @@ int sumElement(int arr[],int n)
             return N*N*N + sumOfSeries(N-1); 
         }
     }
+
+// SUM OF FIRST N NUMBERS 
+void sum(int n){
+if(n==0) return 0;
+      else{
+            return n + sum(n-1);
+      }
+}
