@@ -35,3 +35,13 @@ if(n==0) return 0;
             return n + sum(n-1);
       }
 }
+
+/// factoriaL OF A NUMBER
+ long long int factorial(int N){
+        if (N==0) return 1;
+        else{
+            return N*factorial(N-1);
+        }
+    }
+
+
