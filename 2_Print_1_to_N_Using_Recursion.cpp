@@ -4,15 +4,15 @@ void printit(int i , int n){
 	if(i>n) return ;
 	else{
 		cout<<i<<" ";
-		i++;
-		printit(i,n);
+		printit(i+1,n);
 	}
 }
 int main(){
 int n;
-cin>>n;
-printit(1,n);
-
+	int stp;
+	cin>>stp ;  // enter starting point
+	cin>>n;  // enter the ending value
+printit(stp,n);
 
 return 0;
 }
