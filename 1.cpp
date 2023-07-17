@@ -7,8 +7,8 @@ void print(int count ){
 		           // -> we can return this way
 	}
 	else{
-		cout<<count<<endl;
-		print(count-1);
+		cout<<count<<endl;  // do the operation
+		print(count-1); // return the function with change in parameter
 	}
 
 }
