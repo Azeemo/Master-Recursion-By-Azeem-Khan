@@ -9,8 +9,8 @@ void reverseArr(int arr[],int s,int l)
        return ; 
        }
       else{
-            swap(arr[s],arr[l]);
-            reverseArr(arr,s+1,l-1);
+            swap(arr[s],arr[l]); // doing operation
+            reverseArr(arr,s+1,l-1); // updATING PARAMETER
         }
 }
 
