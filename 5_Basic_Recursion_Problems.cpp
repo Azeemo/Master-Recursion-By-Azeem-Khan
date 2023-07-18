@@ -1,4 +1,5 @@
-// SUM OF DIGITS USING RECURSION
+// SUM OF DIGITS USING RECURSION 
+//(FUNCTIONAL)
 int sumOfDigits(int N){
       if(N==0) return 0;
       else{
@@ -7,6 +8,7 @@ int sumOfDigits(int N){
      return N%10    +      sumOfDigits(N/10);
       }
     }
+
 
 // SUM OF ARRAY ELEMENTS USING RECURSION
 int sumElement(int arr[],int n)
