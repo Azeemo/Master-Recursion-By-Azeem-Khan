@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 // here we are not changing tthe array
-// we are just printing itt in reverse order
+// we are just printing it in reverse order
 
 void reverse(int arr[],int n){
    if(n==0)return;
