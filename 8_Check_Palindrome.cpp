@@ -3,14 +3,15 @@ using namespace std;
 bool sentencePalindrome(string &s,int i){
 	if (i>=s.size()/2)
 	{
-		return true;
+		return true;  /// base condiion as till half of length is everything is same it is palindrome
 	}
 	else{
 		if (s[i]!=s[s.size()-i-1])
 		{
-			return false;
+			return false;             // check for every occurence from first till end 
+			                             /// doing operation
 		}
-		sentencePalindrome(s,i+1);
+		sentencePalindrome(s,i+1); // updating the functions
 	}
 }
 
