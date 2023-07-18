@@ -30,13 +30,24 @@ int sumElement(int arr[],int n)
         }
     }
 
+//////////////////////////////////////////////////////////////////////////////
 // SUM OF FIRST N NUMBERS 
+// functional
 void sum(int n){
 if(n==0) return 0;
       else{
             return n + sum(n-1);
       }
 }
+// parametrized
+// PARAETERIZED // sum = 0
+int SumOfDigits(int n,int sum){
+   if(N==0){
+         cout<<sum; ;
+   }
+      SumofDigits(n-1,sum+n)
+}
+//////////////////////////////////////////////////////////////////////////////////
 
 /// factoriaL OF A NUMBER
  long long int factorial(int N){
