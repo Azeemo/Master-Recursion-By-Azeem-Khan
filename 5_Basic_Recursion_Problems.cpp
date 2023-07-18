@@ -17,7 +17,7 @@ int sumElement(int arr[],int n)
        
 }
 
-// SUM OF FIRST N TERMS
+// SUM OF CUBE OF FIRST N TERMS
 
   long long sumOfSeries(long long N) {
         if (N==0)
