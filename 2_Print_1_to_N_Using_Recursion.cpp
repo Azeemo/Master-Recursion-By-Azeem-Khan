@@ -7,6 +7,16 @@ void printit(int i , int n){
 		printit(i+1,n);
 	}
 }
+  //Complete this function         /// without the use of i ==== recursion tree implemented
+
+    void printNos(int N)
+    {
+        if(N>=1){
+            printNos(N-1);
+            cout<<N<<" ";
+        }
+    }
+
 int main(){
 int n;
 	int stp;
