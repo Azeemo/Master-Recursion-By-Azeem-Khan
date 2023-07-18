@@ -5,7 +5,7 @@ using namespace std;
 void reverseArr(int arr[],int s,int l)
 {
 
-     if(s>l){
+     if(s>l){  /// swapping will kept on doing till the middle of array
        return ; 
        }
       else{
